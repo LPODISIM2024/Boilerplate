@@ -30,6 +30,16 @@
 
 	<build>
 		<plugins>
+			<!-- Lanciare una specifica classe"-->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.0.0</version>
+				<configuration>
+					<mainClass>change.it.Runner</mainClass>
+				</configuration>
+			</plugin>
+			<!-- Includere il plugin di test -->
 			<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.2.5</version>

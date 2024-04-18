@@ -26,7 +26,7 @@ Nel caso dei vostri progetti genera un file jar nella cartella target.
 
 # LANCIARE UN PROGETTO JAVA DA TERMINALE
 
-```mvn exec:java -Dexec.mainClass="artefatto.demo.Main" -Dexec.args="-primo -value 199"```
+```mvn exec:java -Dexec.mainClass="change.it.Runner"``
 
 Se avete usato il pluging ```org.codehaus.mojo.exec-maven-plugin``` potete evitare di usare il parametro ```-Dexec.mainClas``` perchè il main è definito direttamtente all'interno del pom file.
 
